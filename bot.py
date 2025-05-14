@@ -1,10 +1,8 @@
 import os
 import streamlit as st
 from groq import Groq
-from dotenv import load_dotenv
 
-load_dotenv()
-groq_api_key=os.getenv("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")
+groq_api_key="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"
 
 st.sidebar.title("Personalization")
 prompt=st.sidebar.title("System prompt: ")
